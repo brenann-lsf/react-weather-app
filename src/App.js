@@ -9,7 +9,7 @@ export default function App() {
     </div>
     <footer>
       This project was coded by Brenann Francis and is{" "}
-      <a href="https://github.com/brenann-lsf/react-weather-app" target="_blank">
+      <a href="https://github.com/brenann-lsf/react-weather-app" rel="noreferrer" target="_blank">
         open-sourced on GitHub
       </a>
     </footer>
