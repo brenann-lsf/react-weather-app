@@ -7,6 +7,12 @@ export default function App() {
     <div className="container">
       <Weather />
     </div>
+    <footer>
+      This project was coded by Brenann Francis and is{" "}
+      <a href="https://github.com/brenann-lsf/react-weather-app" target="_blank">
+        open-sourced on GitHub
+      </a>
+    </footer>
     </div>
   );
 }
