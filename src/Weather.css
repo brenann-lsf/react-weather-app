@@ -1,11 +1,4 @@
-.Weather{
-    font-family: aril, sans-serif;
-    border-radius: 4px;
-    background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
-    box-shadow: 7px 7px 7px #8884b9;
-    padding: 16px;
-    color: black;
-}
+
 .btn-primary{
     line-height: 30px;
 }
