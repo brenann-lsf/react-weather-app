@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./WeatherForecast.css";
-import Axios from "axios";
+import axios from "axios";
 import WeatherForecastDay from "./WeatherForecastDay";
 
 export default function WeatherForecast(props){
@@ -27,7 +27,7 @@ export default function WeatherForecast(props){
         let latitude= props.coordinates.lat;
         let apiUrl=`https://api.openweathermap.org/data/2.5/oncall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
     
-        Axios.get(apiUrl).then(handleResponse);
+        axios.get(apiUrl).then(handleResponse);
 
         return null;
     }
