@@ -52,7 +52,8 @@ if (weatherData.ready){
                     <input 
                     type="submit" 
                     value="Search" 
-                    className="btn-primary w-100" 
+                    className="btn w-100" 
+                  
                    />
                 </div>
             </div>

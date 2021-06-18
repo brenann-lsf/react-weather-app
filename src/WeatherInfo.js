@@ -7,7 +7,10 @@ import WeatherIcon from "./WeatherIcon";
 export default function WeatherInfo(props){
     return(
 <div className="WeatherInfo">
-<h1>{props.data.city}</h1>
+    <h1>
+    <i class="fas fa-map-marker-alt"></i>{" "}
+    {props.data.city}
+    </h1>
         <ul>
             <li><FormattedDate date={props.data.date}/></li>
             <li className="text-capitalize">{props.data.description}</li>
@@ -18,6 +21,8 @@ export default function WeatherInfo(props){
                 <div className="float-left">
                 <WeatherIcon  code={props.data.icon} 
                 alt={props.data.description}
+                size ={80}
+                color={"#fa9906"}
                 />
                 </div>
             <div className="float-left">
