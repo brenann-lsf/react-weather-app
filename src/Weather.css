@@ -5,9 +5,10 @@
     color: white;
     
 }
-.btn.hover{
-    background-color:#4B1D41;
-    transition: .15s ease-in-out
+.btn:hover{
+    transition: .15s ease-in-out;
+    background-color: #793b6b;
+    color: white;
 }
 .Weather h1{
     font-size: 35px;
